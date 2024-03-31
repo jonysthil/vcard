@@ -1,0 +1,172 @@
+/*FUENTES*/
+@font-face{
+	font-family:"Montserrat";
+	src:url('../fonts/style/Montserrat-Regular.woff2') format('woff2'),url('../fonts/style/Montserrat-Regular.woff') format('woff');
+	font-weight:400;
+}
+@font-face{
+	font-family:"Montserrat";
+	src:url('../fonts/style/Montserrat-Bold.woff2') format('woff2'),url('../fonts/style/Montserrat-Bold.woff') format('woff');
+	font-weight:700;
+}
+@font-face{
+	font-family:"Montserrat";
+	src:url('../fonts/style/Montserrat-Medium.woff2') format('woff2'),url('../fonts/style/Montserrat-Medium.woff') format('woff');
+	font-weight:500;
+}
+
+/*****************************************************************************/
+/*TEXTO*/
+h5{
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px #000;
+	margin-top: 10px;
+}
+h6{
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 14px;
+	margin-bottom: -10px;
+}
+
+/*FONDO*/
+.bg-index{
+	background: url(../images/bg-desktop.png) repeat center top fixed;
+}
+
+/*FONDO OLA SVG*/
+.wave-container{
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	margin-bottom: -230px;
+}
+.wave-container svg{
+	fill: url(#wave-color);
+	position: sticky;
+	z-index: 1;
+}
+
+/*NAVBAR*/
+.nav-index{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+/*LOGO*/
+.brand-logo{
+	width: 120px;
+}
+
+/*ICONOS*/
+.social-icons{
+	font-size: 26px;
+	background: linear-gradient(to left, #41ad96 0%, #21b868 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.pr-7{
+	padding-right: 7px;
+}
+
+/*CARDS*/
+.card-index{
+	background: url(../images/bg-dark.png) repeat center top; 
+	background-size: ; 
+	border: 4px solid #41ad96;
+}
+.img-index{
+	border: 5px solid #fff; 
+	width: 200px; 
+	height: 200px;
+	position: sticky;
+	z-index: 30;
+}
+.card-footer{
+	background: url(../images/bg-light.png) repeat center top; 
+	border-radius: 0 !important;
+}
+
+/*BOTONES*/
+.btn-index{
+	background-image: linear-gradient(to left, #41ad96 0%, #21b868 100%);
+}
+
+/*ESPACIOS*/
+.mt-3{
+	margin-top: 3px !important;
+}
+.pt-70{
+	padding-top: 70px !important;
+}
+.pb-20{
+	padding-bottom: 20px !important;
+}
+.ml{
+	margin-left: -1px !important;
+}
+
+/**************************************************************************************************/
+/*AJUSTES RESPONSIVOS*/
+
+@media screen and (min-width: 320px) {
+
+	.img-index{ 
+		width: 260px !important; 
+		height: 260px !important;
+		margin-top: -80px !important;
+	}
+}
+
+@media screen and (min-width: 384px) {
+
+	.img-index{ 
+		width: 260px !important; 
+		height: 260px !important;
+		margin-top: -110px !important;
+	}
+}
+
+@media screen and (min-width: 576px) {
+
+	.img-index{ 
+		width: 300px !important; 
+		height: 300px !important;
+		margin-top: -250px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.img-index{ 
+		width: 100px !important; 
+		height: 100px !important;
+		margin-top: 90px !important;
+	}
+	.card-index{
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.img-index{ 
+		width: 160px !important; 
+		height: 160px !important;
+		margin-top: 40px !important;
+	}
+	.card-index{
+		height: 350px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+	.img-index{ 
+		width: 200px !important; 
+		height: 200px !important;
+		margin-top: 0 !important;
+	}
+}

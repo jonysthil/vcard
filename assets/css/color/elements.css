@@ -1,0 +1,65 @@
+/*FONDO VCARD*/
+.bg-vc{
+    background: url(../../images/bg-dark.png) repeat center top;
+}
+/*FONDO CONTACTO*/
+.bg-contact{
+    background: url(../../images/bg-light.png) repeat center top;
+}
+/*FONDO AREA*/
+.area-vc{
+    background: url(../../images/bg-light.png) repeat center top; 
+}
+/*FONDO MODAL*/
+.modal-vc{
+    background: url(../../images/bg-dark.png) repeat center top;
+}
+
+/*****************************************************************************/
+/* BORDE FOTOGRAFIA*/
+.photo-vc{
+    border-color: #fff;
+}
+
+/*COLOR NOMBRE*/
+.name-vc{
+    color: #fff;
+}
+
+/*COLOR PUESTO*/
+.job-vc{
+    color: #fff;
+}
+
+/*COLOR TITULO CONTACTO*/
+.title-contact{
+    color: #222222;
+}
+
+/*COLOR TEXTO BOTONES CONTACTO*/
+.btn-primary {
+    color: #fff;
+}
+
+/*COLOR DIVISORES*/
+.hr-two{
+    border-color: #fff;
+}
+
+/*TEXTO AREA BIO*/
+.txt-vc{
+    color: #222222;
+}
+
+/*RECUADRO DIRECCION*/
+.txt-location{
+    color: #222222;
+}
+.txt-title{
+    color: #222222;
+}
+
+/*COLOR BOTON MODAL*/
+.btn-modal{
+    background-color: #fff;
+}

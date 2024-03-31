@@ -1,0 +1,56 @@
+:root {
+    --primary: #16a085;
+    --secondary: #147160;
+}
+
+/*****************************************************************************/
+/*EFECTO DE OLA*/
+.wave-effect {
+    background-image: linear-gradient(to left, #4f4f4f 0%, #141212 100%);
+}
+
+/*BOTONES CONTACTO*/
+.btn-primary {
+    background-image: linear-gradient(to left, var(--secondary) 0%, var(--primary) 100%);
+    border-color: var(--secondary);
+}
+.btn-primary:focus {
+    background-color: var(--primary);
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(44, 119, 75, 0.5);
+}
+
+/*DIVISORES*/
+.hr-one{
+    border-color: var(--primary); 
+}
+.hr-color{
+    border-color: var(--secondary);
+}
+
+/*AREA BIO - TEXTO NOMBRE*/
+.txt-color{
+	color: var(--secondary);
+}
+/*MODAL COLOR CONTORNO*/
+.modal-vc{
+    border-color: var(--primary);
+}
+/*MODAL COLOR CONTORNO QR*/
+.img-qr{
+    border-color: var(--secondary); 
+}
+
+/*BOTON MODAL QR*/
+.btn-modal{
+    color: var(--primary); 
+    border-color: var(--secondary) !important;
+}
+.btn-gd{
+	background-image: linear-gradient(to left, var(--secondary) 0%, var(--primary) 100%);
+    border-color: var(--secondary) !important;
+}
+.btn-cl{
+	background-image: linear-gradient(to left, #e63868 0%, #9c2848 100%);
+}
