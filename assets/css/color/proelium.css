@@ -6,7 +6,8 @@
 /*****************************************************************************/
 /*EFECTO DE OLA*/
 .wave-effect {
-    background-image: linear-gradient(to left, #4f4f4f 0%, #141212 100%);
+    /*background-image: linear-gradient(to left, #4f4f4f 0%, #141212 100%);*/
+    background-image: linear-gradient(to left, #155a4f 0%, #062d28 100%);
 }
 
 /*BOTONES CONTACTO*/
