@@ -1,9 +1,12 @@
 BEGIN:VCARD
-VERSION:2.1
-N:;Jonathan Jimenez;;;
+VERSION:4.0
+N:Jonathan;Jimenez;;Ing.;
 FN:Jonathan Jimenez
-TEL;CELL:+525613300347
-EMAIL;HOME:jonysthil@gmail.com
-ORG;CHARSET=UTF-8:Freelance
-REV:2024-04-01T22:17:16.778Z
+ORG:Freelance.
+TITLE:Web Developer
+PHOTO;MEDIATYPE#image/webp:https://jonyjg.com/assets/images/jony-profile.webp
+TEL;TYPE#work,voice;VALUE#uri:tel:+52-553-803-0380
+EMAIL:jonysthil@gmail.com
+REV:20240424T195243Z
+x-qq:21588891
 END:VCARD
